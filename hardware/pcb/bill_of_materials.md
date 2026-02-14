@@ -11,44 +11,37 @@ Complete list of components needed to build the solar tracker project.
 
 ### Tracking System (Arduino-powered)
 
-+---------------------------+----------+-----------------------------------+-------------------------------+----------+
-| Component                 | Quantity | Specifications                    | Notes                         | Est. Cost|
-+---------------------------+----------+-----------------------------------+-------------------------------+----------+
-| **Arduino Uno Rev3**      | 1        | ATmega328P, 16MHz                 | Official or compatible        | €20.00   |
-| **Prototype Shield**      | 1        | Compatible with Arduino Uno       | For clean PCB assembly        | €5.00    |
-| **Servo Motor**           | 1        | SG90, 180° rotation, 5V           | Standard hobby servo          | €3.00    |
-| **Photoresistor (LDR)**   | 2        | 5mm, light range 5-10kΩ           | GL5528 or similar             | €1.00    |
-| **Resistor 10kΩ**         | 2        | 1/4W, ±5% tolerance               | For voltage dividers          | €0.50    |
-| **USB Cable Type A-B**    | 1        | Standard Arduino cable            | Power + programming           | €3.00    |
-| **Jumper Wires**          | ~15-20   | Male-Male / Male-Female           | Various colors                | €2.00    |
-+---------------------------+----------+-----------------------------------+-------------------------------+----------+
+| Component | Quantity | Specifications | Notes | Est. Cost |
+|-----------|----------|----------------|-------|-----------|
+| **Arduino Uno Rev3** | 1 | ATmega328P, 16MHz | Official or compatible | €20.00 |
+| **Prototype Shield** | 1 | Compatible with Arduino Uno | For clean PCB assembly | €5.00 |
+| **Servo Motor** | 1 | SG90 or equivalent, 180° rotation, 5V | Standard hobby servo | €3.00 |
+| **Photoresistor (LDR)** | 2 | 5mm, light range 5-10kΩ | GL5528 or similar | €1.00 |
+| **Resistor 10kΩ** | 2 | 1/4W, ±5% tolerance | For voltage dividers | €0.50 |
+| **USB Cable Type A-B** | 1 | Standard Arduino cable | For power and programming | €3.00 |
+| **Jumper Wires** | ~15-20 | Male-Male or Male-Female | Various colors for organization | €2.00 |
 
 **Subtotal: €34.50**
 
 ### Solar Panel Demonstration Circuit (Independent)
 
-+---------------------------+----------+-----------------------------------+-------------------------------+----------+
-| Component                 | Quantity | Specifications                    | Notes                         | Est. Cost|
-+---------------------------+----------+-----------------------------------+-------------------------------+----------+
-| **Small Solar Panel**     | 1        | 5V output, 100-200mA              | ~60x60mm size                 | €10.00   |
-| **LED**                   | 1        | Red, 5mm, standard brightness     | Any red LED                  | €0.20    |
-|**Resistor(current-limit)**| 1        | 220Ω, 1/4W                        | Protects LED                  | €0.10    |
-| **Wire**                  | ~30cm    | 22-24 AWG                         | Panel → LED connection        | €0.50    |
-+---------------------------+----------+-----------------------------------+-------------------------------+----------+
+| Component | Quantity | Specifications | Notes | Est. Cost |
+|-----------|----------|----------------|-------|-----------|
+| **Small Solar Panel** | 1 | 5V output, 100-200mA | ~60x60mm or similar size | €10.00 |
+| **LED** | 1 | Red, 5mm, standard brightness | Any standard red LED works | €0.20 |
+| **Resistor (current-limiting)** | 1 | 220Ω, 1/4W | Protects LED from overcurrent | €0.10 |
+| **Wire** | ~30cm | 22-24 AWG | For connecting panel to LED | €0.50 |
 
 **Subtotal: €10.80**
 
-
 ---
 
-## 3D Printed Components
+##  3D Printed Components
 
-+-------------------+---------------------------+----------+--------+------------+--------+----------+
-| Part Name         | File                      | Material | Infill | Print Time | Weight | Est. Cost|
-+-------------------+---------------------------+----------+--------+------------+--------+----------+
-| **Base Platform** | Base-solare.stl           | PLA      | 20%    | ~2h        | 50g    | €1.00    |
-| **Panel Support** | Supporto-pannello.stl     | PLA      | 20%    | ~1.5h      | 30g    | €0.60    |
-+-------------------+---------------------------+----------+--------+------------+--------+----------+
+| Part Name | File | Material | Infill | Print Time | Weight | Est. Cost |
+|-----------|------|----------|--------|------------|--------|-----------|
+| **Base Platform** | Base-solare.stl | PLA | 20% | ~2h | 50g | €1.00 |
+| **Panel Support** | Supporto-pannello.stl | PLA | 20% | ~1.5h | 30g | €0.60 |
 
 
 **Print Settings:**
